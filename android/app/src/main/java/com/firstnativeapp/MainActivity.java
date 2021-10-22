@@ -1,6 +1,8 @@
 package com.firstnativeapp;
 
 import com.facebook.react.ReactActivity;
+// React navigation add
+import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +13,10 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "FirstNativeApp";
+  }
+  // React navigation add
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 }

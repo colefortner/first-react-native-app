@@ -145,7 +145,6 @@
 				A305016A8D72777EBB186A1C /* Pods-FirstNativeApp-FirstNativeAppTests.debug.xcconfig */,
 				E926AEA791DFA7D488F04406 /* Pods-FirstNativeApp-FirstNativeAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
